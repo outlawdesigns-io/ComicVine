@@ -6,6 +6,7 @@ class ComicVine{
 
     const APIBASE = 'https://comicvine.gamespot.com/api/';
     const QUERYSEP = '?';
+    const RATELIMIT = 450;
 
     public function __construct(){}
 
