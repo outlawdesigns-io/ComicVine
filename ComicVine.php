@@ -5,7 +5,7 @@ class ComicVine{
     const APIBASE = 'https://comicvine.gamespot.com/api/';
     const QUERYSEP = '?';
     const RATELIMIT = 450;
-    const API_ENV_VAR = 'COMIC_VINE_API_KEY';
+    const API_ENV_VAR = 'COMICVINE_API_KEY';
     const USER_AGENT_STR = 'MYTESTUSERAGENTTHATISUREHOPEISUNIQUE';
 
     public function __construct(){
